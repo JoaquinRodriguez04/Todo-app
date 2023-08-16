@@ -1,0 +1,36 @@
+/* importe de fuente de familia */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700;800&display=swap');
+
+/* seteando los estilos generales*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Epiloge', sans-serif;
+  font-weight: 500;
+}
+
+/* estilizando la etiqueta a */
+a {
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+/* estilizando la etiqueta li */
+li{
+  list-style: none;
+  font-size: 1.1em;
+}
+
+/* estilizando la etiqueta p */
+p{
+  font-size: 1.4em;
+}
+
+/* estilizando el button */
+button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  outline: none;
+}
