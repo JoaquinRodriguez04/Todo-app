@@ -64,7 +64,7 @@ The designs were created to the following widths:
 
     /* general */
     --clr-white: #f9f9ff;
-    --clr-check-background: #57ddff to #c058f3;
+    --clr-check-background: #57ddff, #c058f3;
     --clr-Bright-Blue: #3a7bfd;
 }
 
@@ -190,7 +190,7 @@ button:hover{
 
 /* todo-circle-checked */
 .todo-circle-checked{
-    background-image: linear-gradient(150deg, #57ddff, #c058f3);
+    background-image: linear-gradient(150deg, var(--clr-check-background));
     display: flex;
     align-items: center;
     justify-content: center;
