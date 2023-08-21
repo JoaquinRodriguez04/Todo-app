@@ -1,10 +1,13 @@
 import './App.css';
+import MainTodo from './components/MainTodo';
+import { TodoProvider } from './components/TodoContext';
 
 function App() {
 
   return (
-    <main className='app-container'>
-    </main>
+    <TodoProvider>
+      <MainTodo/>
+    </TodoProvider>
   )
 };
 
