@@ -5,7 +5,7 @@ import WidgetEmpty from "./WidgetEmpty";
 
 const WidgetBtnCheck = ({todo, index}) => {
 
-    const {handleSetCheck} = useContext(TodoContext);
+  const {handleSetCheck} = useContext(TodoContext);
 
   return (
     <button 
